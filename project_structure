@@ -1,0 +1,24 @@
+project-name/
+│
+├── notebooks/ 
+│   └── main_notebook.ipynb        # original development notebook (cleaned & readable)
+│
+├── src/                          
+│   ├── data_preprocessing.py      # data cleaning, feature engineering, preprocessing
+│   ├── model.py                   # model architecture/training functions
+│   ├── utils.py                   # helper functions (metrics, visualization, etc.)
+│   └── inference.py               # for making predictions with trained model
+│
+├── data/                          # (Optional: no raw data, only sample/tiny version if dataset is huge)
+│   └── sample.csv                 
+│
+├── results/                       
+│   ├── figures/                   # plots, charts, confusion matrix, ROC curves, etc.
+│   └── metrics.json               # final evaluation scores
+│
+├── requirements.txt               # exact Python dependencies
+├── environment.yml                # conda environment (optional but professional)
+├── .gitignore                     # ignore large datasets, logs, .ipynb_checkpoints
+├── LICENSE                        # MIT or Apache-2.0 (client-friendly, shows professionalism)
+├── README.md                      # project description (catchy, client-oriented)
+└── CONTRIBUTING.md                # (Optional, makes repo look more professional)
